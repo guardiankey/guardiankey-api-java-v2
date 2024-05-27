@@ -18,12 +18,12 @@ public class Test2 {
     try {
         HttpClient client = HttpClientBuilder.create().build();
         Map<String,String> config = new HashMap<String,String>();
-        config.put("guardiankey.orgid", "5a6c53e5d1224646d20a0f816891cab28ee94964323d7065b15e9e82e5ebfce0");
-        config.put("guardiankey.authgroupid", "d1ed02fa7f9ffacf6c7da5573c8f127584b0583206cd4994e6b887d4502d92f8");
-        config.put("guardiankey.key", "FBfFpm1e48s5lUM+pP34Yu38RwEuoud68JMZ2stLK9Q=");
-        config.put("guardiankey.iv", "23tiva4C7RioiHeyRmx3HA==");
-        config.put("guardiankey.service", "PortalCidadao");
-        config.put("guardiankey.agentid", "backendserver");
+        config.put("guardiankey.orgid", "");
+        config.put("guardiankey.authgroupid", "");
+        config.put("guardiankey.key", "");
+        config.put("guardiankey.iv", "");
+        config.put("guardiankey.service", "");
+        config.put("guardiankey.agentid", "");
         config.put("guardiankey.apiurl", "https://api.guardiankey.io");
         GuardianKeyAPI GK = new GuardianKeyAPI();
         GK.setConfig(config);
