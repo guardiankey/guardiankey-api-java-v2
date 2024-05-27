@@ -18,10 +18,10 @@ public class Example {
 		 * Take the information below in the "Deployment" tab of your 
 		 * AuthGroup, in the GuardianKey's Administration Panel.
 		 */
-		config.put("guardiankey.orgid", "161d5470619ab52c61c1ed212dd52c1ca0e8a219b6d9d413c44cb9f90dae70cc");
-		config.put("guardiankey.authgroupid", "1554b454d09f9c36175ce825227adc5b41580733e5ff6a55f2fc58ac6236af69");
-		config.put("guardiankey.key", "CFNn6hMvvtTefubmMvQVpstE1iJAgdI07MoXVTmPUI4=");
-		config.put("guardiankey.iv", "JSR5E6Leuv3gX12dbQbdcw==");
+		config.put("guardiankey.orgid", "");
+		config.put("guardiankey.authgroupid", "");
+		config.put("guardiankey.key", "");
+		config.put("guardiankey.iv", "");
 		
 		// Put some information to identify your service
 		config.put("guardiankey.service", "MyJavaSite");
